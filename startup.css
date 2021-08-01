@@ -1,0 +1,49 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url( header.jpg ) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  font-size: 3rem;
+  color: #d4cb18;
+}
+hr{
+  /*hr means line*/
+  border-color: #f05f44;
+  border-width: 3px;
+  max-width: 65px;
+  /*Mac width is the max length it can be*/
+}
+.buffer{
+  height: 10rem;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  /*border- radius makes the edges more circular*/
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  background-color: #F05F44;
+  /*the btn-primary is blue but we wanted red which is why we changed it to #F05F44*/
+  border-color: orange;
+  /*There was a blue border on the button left over so this changes it to orange i could have also made it the same color as the button*/
+}
+.btn-primary:hover{
+  background-color: #ee4b08;
+  /*the new background color is only shown when the mouse goes over the button*/
+  border-color: #ee4b08;
+  border-width: 4px;
+  /*the border-color and width becuase of this will change when you hover over it*/
+}
+.btn-xl{
+  padding: 1rem 2rem;
+}
+/*so this adds one rem sides and 2 rem top and bottom this makes the button larger "because this is called btn-xl then it would be smart to only have this mess with the size and nothing else to do with the button*/
